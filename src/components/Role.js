@@ -1,8 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Role = () => {
+   useEffect(() => {
+     Aos.init()
+   }, [])
   return (
-    <div className='mt-5 p-4'>
+    <div
+      className='mt-5 p-4'
+      data-aos='zoom-in-up'
+      data-aos-offset='200'
+      data-aos-easing='ease-in-sine'
+      data-aos-duration='600'
+    >
       <section>
         <div>
           <h4 className='text-capitalize prj'>The need for me</h4>

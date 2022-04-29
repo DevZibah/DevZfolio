@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Contact = () => {
   const Mailto = ({ email, subject = '', body = '', children }) => {
@@ -8,8 +10,17 @@ const Contact = () => {
 
     return <a href={`mailto:${email}${params}`}>{children}</a>
   }
+  useEffect(() => {
+    Aos.init()
+  }, [])
   return (
-    <div className='Contact'>
+    <div
+      className='Contact'
+      data-aos='zoom-in-up'
+      data-aos-offset='200'
+      data-aos-easing='ease-in-sine'
+      data-aos-duration='600'
+    >
       <section className='mt-4 p-4 contacct'>
         <div>
           <h4 className='prj mt-3 contact-h4'>Ready to Work?</h4>

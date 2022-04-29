@@ -17,7 +17,6 @@ const App = () => {
       setLoading(false)
     }, 3000)
   }, [])
-
   return (
     <div className='App'>
       {loading ? (
@@ -25,7 +24,7 @@ const App = () => {
       ) : (
         <div>
           <div className='first-div'>
-            <Navbar/>
+            <Navbar />
             <Intro />
           </div>
           <div className='mt-5'>

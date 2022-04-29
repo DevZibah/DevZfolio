@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import rest from '../assets/restcountries.jpg'
 import ecommerce from '../assets/Ecommerce.jpg'
 import rockps from '../assets/RockPaperScissors.jpg'
@@ -6,12 +8,26 @@ import advicegapp from '../assets/AdviceGApp.jpg'
 import bookmark from '../assets/Bookmark.jpg'
 
 const Projects = () => {
+  useEffect(() => {
+    Aos.init()
+  }, [])
   return (
     <div className='p-4 Projects'>
-      <div>
+      <div
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-easing='ease-in-sine'
+        data-aos-duration='600'
+      >
         <h3 className='text-capitalize prj'>projects</h3>
       </div>
-      <section className='sec-one mt-4'>
+      <section
+        className='sec-one mt-4'
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-easing='ease-in-sine'
+        data-aos-duration='800'
+      >
         <div className='image-one'>
           <img src={rest} alt='Rest Countries API' />
         </div>
@@ -41,7 +57,13 @@ const Projects = () => {
           <img src={rest} alt='Rest Countries API' />
         </div>
       </section>
-      <section className='sec-one mt-5 mt-md-4'>
+      <section
+        className='sec-one mt-5 mt-md-4'
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-easing='ease-in-sine'
+        data-aos-duration='600'
+      >
         <div className='image-one'>
           <img src={ecommerce} alt='Ecommerce single page' />
         </div>
@@ -68,7 +90,13 @@ const Projects = () => {
           <img src={ecommerce} alt='Ecommerce single page' />
         </div>
       </section>
-      <section className='sec-one mt-5'>
+      <section
+        className='sec-one mt-5'
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-easing='ease-in-sine'
+        data-aos-duration='600'
+      >
         <div className='image-one'>
           <img src={rockps} alt='Rock Paper Scissors' />
         </div>
@@ -94,7 +122,13 @@ const Projects = () => {
           <img src={rockps} alt='Rock Paper Scissors' />
         </div>
       </section>
-      <section className='sec-one mt-5'>
+      <section
+        className='sec-one mt-5'
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-easing='ease-in-sine'
+        data-aos-duration='600'
+      >
         <div className='image-one'>
           <img src={advicegapp} alt='Advice generator app' />
         </div>
@@ -119,7 +153,13 @@ const Projects = () => {
           <img src={advicegapp} alt='Advice generator app' />
         </div>
       </section>
-      <section className='sec-one mt-5'>
+      <section
+        className='sec-one mt-5'
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-easing='ease-in-sine'
+        data-aos-duration='600'
+      >
         <div className='image-one'>
           <img src={bookmark} alt='Bookmark landing page' />
         </div>

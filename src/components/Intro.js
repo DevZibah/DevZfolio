@@ -1,18 +1,34 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import { Link } from 'react-scroll'
 import { BsLinkedin, BsTwitter, BsGithub } from 'react-icons/bs'
 import { SiFrontendmentor } from 'react-icons/si'
 
 const Intro = () => {
+  useEffect(() => {
+    Aos.init()
+  }, [])
   return (
-    <div className='intro p-3 mt-4'>
+    <div
+      className='intro p-3 mt-4'
+      data-aos='fade-up'
+      data-aos-offset='200'
+      data-aos-easing='ease-in-sine'
+      data-aos-duration='600'
+    >
       <h2>Hi, I'm Chisom, Front-end Web Developer</h2>
       <p className='mt-3'>
         A front-end developer specializing in the design, development, and
         launch of customized, highly responsive websites.
       </p>
       <div className='mt-4 buttn p-3'>
-        <Link to='Projects' smooth={true} duration={2000} className='text-capitalize linkk'>
+        <Link
+          to='Projects'
+          smooth={true}
+          duration={2000}
+          className='text-capitalize linkk'
+        >
           see my work
         </Link>
       </div>

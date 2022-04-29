@@ -1,9 +1,20 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import { Link } from 'react-scroll'
 
 const Navbar = () => {
+  useEffect(() => {
+    Aos.init()
+  }, [])
   return (
-    <div className='mt-2'>
+    <div
+      className='mt-2'
+      data-aos='fade-up'
+      data-aos-offset='200'
+      data-aos-easing='ease-in-sine'
+      data-aos-duration='600'
+    >
       <nav className='navbar navbar-expand-lg'>
         <div className='mt-1'>
           <h5 className='text-uppercase'>chisom</h5>
