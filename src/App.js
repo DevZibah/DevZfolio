@@ -15,7 +15,7 @@ const App = () => {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 5000)
+    }, 3000)
   }, [])
 
   return (
@@ -25,7 +25,7 @@ const App = () => {
       ) : (
         <div>
           <div className='first-div'>
-            <Navbar />
+            <Navbar/>
             <Intro />
           </div>
           <div className='mt-5'>

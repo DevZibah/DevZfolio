@@ -9,24 +9,23 @@ const Contact = () => {
     return <a href={`mailto:${email}${params}`}>{children}</a>
   }
   return (
-    <div>
-      <section className='mt-5 p-4 contacct'>
+    <div className='Contact'>
+      <section className='mt-4 p-4 contacct'>
         <div>
-          <h4 className='prj mt-3'>Ready to Work?</h4>
+          <h4 className='prj mt-3 contact-h4'>Ready to Work?</h4>
         </div>
         <div>
           <p className='mt-4 texts'>
             If you or your organization is in need of an outstanding website
             that is lacking in no way, I am available to work with you. Please
-            contact me via email at{' '}
+            contact me via email at
             <Mailto
               email='chukwumachisom18@gmail.com'
               subject='Hello & Welcome'
               body='Hello world!'
             >
-              chukwumachisom18@gmail.com
+              <p className='email'>chukwumachisom18@gmail.com</p>
             </Mailto>
-            ,
           </p>
         </div>
       </section>

@@ -1,20 +1,29 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
-// import { useSpring, animated } from 'react-spring'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
-  // const props = useSpring({ to: { opacity: 1 }, from: { opacity: 0 } })
   return (
     <div className='mt-2'>
       <nav className='navbar navbar-expand-lg'>
-        {/* <animated.div style={props} className='text-uppercase'>
-          Chisom
-        </animated.div> */}
         <div className='mt-1'>
           <h5 className='text-uppercase'>chisom</h5>
         </div>
+        <div className='navv'>
+          <Link
+            className='linnk p-4'
+            to='Projects'
+            smooth={true}
+            duration='2000'
+          >
+            Projects
+          </Link>
+
+          <Link className='linnk' to='Contact' smooth={true} duration='2000'>
+            Contact Me
+          </Link>
+        </div>
         <button
-          className='navbar-toggler'
+          className='navbar-toggler buttonn'
           type='button'
           data-toggle='collapse'
           data-target='#navbarNav'
@@ -24,15 +33,25 @@ const Navbar = () => {
         >
           <i className='fas fa-bars iccon'></i>
         </button>
-        <div className='collapse navbar-collapse' id='navbarNav'>
+        <div className='collapse navbar-collapse nav-nth' id='navbarNav'>
           <ul className='navbar-nav'>
             <li className='nav-item'>
-              <Link className='nav-link linnk' to='/'>
+              <Link
+                className='nav-link linnk'
+                to='Projects'
+                smooth={true}
+                duration='2000'
+              >
                 Projects
               </Link>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link linnk' to='/'>
+              <Link
+                className='nav-link linnk'
+                to='Contact'
+                smooth={true}
+                duration='2000'
+              >
                 Contact Me
               </Link>
             </li>

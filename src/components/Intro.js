@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 import { BsLinkedin, BsTwitter, BsGithub } from 'react-icons/bs'
 import { SiFrontendmentor } from 'react-icons/si'
 
@@ -12,7 +12,7 @@ const Intro = () => {
         launch of customized, highly responsive websites.
       </p>
       <div className='mt-4 buttn p-3'>
-        <Link to='/' className='text-capitalize linkk'>
+        <Link to='Projects' smooth={true} duration={2000} className='text-capitalize linkk'>
           see my work
         </Link>
       </div>

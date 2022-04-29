@@ -10,7 +10,7 @@ const Role = () => {
         <div>
           <div className='mt-4 texts'>
             <h5 className='text-capitalize'>design</h5>
-            <p>
+            <p className='role-p'>
               To translate ideas into pixel-perfect designs, I use CSS
               frameworks such as bootstrap and material ui. I'm familiar with
               Figma, which is a fantastic tool for creating stunning websites. I
@@ -20,7 +20,7 @@ const Role = () => {
           </div>
           <div className='mt-4 texts'>
             <h5 className='text-capitalize'>development</h5>
-            <p>
+            <p className='role-p'>
               I use React, which is a JavaScript library for creating user
               interfaces. I use react because it makes it simple to create
               interactive user interfaces. Design simple views for each state in

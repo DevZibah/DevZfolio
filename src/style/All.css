@@ -33,18 +33,22 @@ body {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
 }
-.grid{
+.grid {
   text-align: end;
   line-height: 1rem;
 }
-.iccon{
+.iccon {
   color: black;
 }
-.linnk{
+.linnk {
   color: black;
   text-align: center;
 }
-.buttn{
+.linnk:hover {
+  color: black;
+  text-decoration: none;
+}
+.buttn {
   border: 1px solid black;
   border-top-right-radius: 12px;
   border-bottom-left-radius: 12px;
@@ -52,46 +56,130 @@ body {
   background-color: black;
   text-align: center;
 }
-.linkk{
+.linkk {
   color: white;
 }
-.linnk1{
+.linnk1 {
   color: black;
   text-align: center;
   font-size: 1.8rem;
 }
-.linnk1:hover{
+.linnk1:hover {
   color: black;
 }
-.sec-one img{
+.sec-one img {
   width: 100%;
 }
-.prj{
+.prj {
   font-weight: 800;
 }
-.div-p{
+.div-p {
   text-align: justify;
 }
-.linkk:hover{
+.linkk:hover {
   color: white;
   text-decoration: none;
 }
-.prj{
+.prj {
   text-decoration-line: underline;
   text-decoration-color: black;
   text-decoration-thickness: 2px;
 }
-.texts{
+.texts {
   text-align: justify;
 }
-.texts h5{
+.texts h5 {
   font-weight: 700;
 }
-.contacct{
+.contacct {
   background-color: #fcbf49;
   color: black;
 }
-@media (min-width: 768px) {
+.email {
+  color: black;
+  text-decoration: none;
 }
-@media (min-width: 1200px) {
+.email:hover {
+  color: black;
+  text-decoration: none;
+}
+.navv {
+  display: none;
+}
+.imagee {
+  display: none;
+}
+@media (min-width: 768px) {
+  .buttonn {
+    display: none;
+  }
+  .navv {
+    display: block;
+  }
+  .intro h2 {
+    width: 70%;
+    font-size: 2.3rem;
+  }
+  .intro p {
+    width: 70%;
+  }
+  .buttn {
+    width: 30%;
+  }
+  .linnk1 {
+    font-size: 2.3rem;
+  }
+  .imagee {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .navv {
+    display: none;
+  }
+  .nav-nth {
+    justify-content: flex-end;
+  }
+  .intro h2 {
+    font-size: 2.5rem;
+    width: 50%;
+  }
+  .intro p {
+    width: 50%;
+  }
+  .buttn {
+    width: 20%;
+  }
+  .sec-one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .imagee{
+    display: block;
+  }
+  .imagee img{
+    width: 90%;
+  }
+  .image-one{
+    display: none;
+  }
+  .project-name{
+    font-size: 2rem;
+  }
+  .prj{
+    font-size: 2rem;
+  }
+  .div-p{
+    width: 90%;
+  }
+  .butn{
+    width: 40%;
+  }
+  .role-p{
+    width: 70%;
+  }
+  .contacct p{
+    width: 70%;
+  }
 }
