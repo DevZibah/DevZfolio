@@ -42,7 +42,7 @@ const Projects = () => {
             countries by region, click on a country to see more detailed
             information on a separate page, click through to the border
             countries on the detail page and toggle the color scheme between
-            light and dark mode.
+            light and dark mode. It was built with ReactJs and Bootstrap.
           </p>
           <div className='mt-4 buttn butn p-3'>
             <a
@@ -75,7 +75,7 @@ const Projects = () => {
             interactive elements on the page, open a lightbox gallery by
             clicking on the large product image, switch the large product image
             by clicking on the small thumbnail images, add items to the cart,
-            view the cart and remove items from it.
+            view the cart and remove items from it. It was built with ReactJs and Bootstrap.
           </p>
           <div className='mt-4 buttn butn p-3'>
             <a
@@ -107,7 +107,7 @@ const Projects = () => {
             children? This is an implementation of that game. This makes it more
             fun to play. It enables players to view the optimal layout for the
             game depending on their device's screen size, play Rock, Paper,
-            Scissors against the computer.
+            Scissors against the computer. It was built with ReactJs.
           </p>
           <div className='mt-4 buttn butn p-3'>
             <a
@@ -138,7 +138,7 @@ const Projects = () => {
             This project integrates with the Advice Slip API to pull advice
             data. It enables users to see hover states for all interactive
             elements on the page and generate a new piece of advice by clicking
-            the dice icon.
+            the dice icon. It was built with ReactJs.
           </p>
           <div className='mt-4 buttn butn p-3'>
             <a
@@ -167,7 +167,7 @@ const Projects = () => {
           <h4 className='project-name'>Bookmark landing page</h4>
           <p className='mt-4 div-p'>
             This project is a landing page that enables users to view the
-            optimal layout for the site depending on their device's screen size.
+            optimal layout for the site depending on their device's screen size. It was built with HTML, CSS and Bootstrap.
           </p>
           <div className='mt-4 buttn butn p-3'>
             <a
