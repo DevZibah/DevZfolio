@@ -4,6 +4,7 @@ import './style/All.css'
 import Loader from './components/Loader'
 import Navbar from './components/Navbar'
 import Intro from './components/Intro'
+import About from './components/About'
 import Projects from './components/Projects'
 import Role from './components/Role'
 import Contact from './components/Contact'
@@ -28,6 +29,7 @@ const App = () => {
             <Intro />
           </div>
           <div className='mt-5'>
+            <About />
             <Projects />
             <Role />
             <Contact />

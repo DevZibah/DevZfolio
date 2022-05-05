@@ -21,6 +21,14 @@ const Navbar = () => {
         </div>
         <div className='navv'>
           <Link
+            className='linnk'
+            to='About'
+            smooth={true}
+            duration='2000'
+          >
+            About Me
+          </Link>
+          <Link
             className='linnk p-4'
             to='Projects'
             smooth={true}
@@ -46,6 +54,16 @@ const Navbar = () => {
         </button>
         <div className='collapse navbar-collapse nav-nth' id='navbarNav'>
           <ul className='navbar-nav'>
+            <li className='nav-item'>
+              <Link
+                className='nav-link linnk'
+                to='About'
+                smooth={true}
+                duration='2000'
+              >
+                About Me
+              </Link>
+            </li>
             <li className='nav-item'>
               <Link
                 className='nav-link linnk'

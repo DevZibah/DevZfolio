@@ -57,7 +57,7 @@ body {
   text-align: center;
 }
 .linkk {
-  cursor:pointer;
+  cursor: pointer;
   color: white;
 }
 .linnk1 {
@@ -110,8 +110,25 @@ body {
 .imagee {
   display: none;
 }
+.aboutimg img {
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+.aboutimg-one {
+  display: none;
+}
+.griid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  font-size: 2.5rem;
+}
 @media (min-width: 768px) {
   .buttonn {
+    display: none;
+  }
+  .nav-nth {
     display: none;
   }
   .navv {
@@ -134,11 +151,13 @@ body {
     display: none;
   }
 }
+
 @media (min-width: 1024px) {
   .navv {
     display: none;
   }
   .nav-nth {
+    display: block;
     justify-content: flex-end;
   }
   .intro h2 {
@@ -156,31 +175,59 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
   }
-  .imagee{
+  .imagee {
     display: block;
   }
-  .imagee img{
+  .imagee img {
     width: 90%;
   }
-  .image-one{
+  .image-one {
     display: none;
   }
-  .project-name{
+  .project-name {
     font-size: 2rem;
   }
-  .prj{
+  .prj {
     font-size: 2rem;
   }
-  .div-p{
+  .div-p {
     width: 90%;
   }
-  .butn{
+  .butn {
     width: 40%;
   }
-  .role-p{
+  .role-p {
     width: 70%;
   }
-  .contacct p{
+  .contacct p {
     width: 70%;
+  }
+  .sec-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .aboutimg {
+    display: none;
+  }
+  .aboutimg-one {
+    display: block;
+  }
+  .aboutimg-one img {
+    border: 1px solid red;
+    margin-left: 3rem;
+    margin-top: -2rem;
+    width: 60%;
+  }
+  .linnk:hover {
+    font-size: larger;
+  }
+  .buttn:hover {
+    background-color: #fcbf49;
+    color: black;
+  }
+  .linkk:hover{
+    color: black;
+    font-size: larger;
   }
 }

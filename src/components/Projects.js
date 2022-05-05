@@ -75,7 +75,8 @@ const Projects = () => {
             interactive elements on the page, open a lightbox gallery by
             clicking on the large product image, switch the large product image
             by clicking on the small thumbnail images, add items to the cart,
-            view the cart and remove items from it. It was built with ReactJs and Bootstrap.
+            view the cart and remove items from it. It was built with ReactJs
+            and Bootstrap.
           </p>
           <div className='mt-4 buttn butn p-3'>
             <a
@@ -167,7 +168,8 @@ const Projects = () => {
           <h4 className='project-name'>Bookmark landing page</h4>
           <p className='mt-4 div-p'>
             This project is a landing page that enables users to view the
-            optimal layout for the site depending on their device's screen size. It was built with HTML, CSS and Bootstrap.
+            optimal layout for the site depending on their device's screen size.
+            It was built with HTML, CSS and Bootstrap.
           </p>
           <div className='mt-4 buttn butn p-3'>
             <a
