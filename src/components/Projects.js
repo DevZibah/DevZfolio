@@ -6,6 +6,7 @@ import ecommerce from '../assets/Ecommerce.jpg'
 import rockps from '../assets/RockPaperScissors.jpg'
 import advicegapp from '../assets/AdviceGApp.jpg'
 import bookmark from '../assets/Bookmark.jpg'
+import joblist from '../assets/joblist.jpg'
 
 const Projects = () => {
   useEffect(() => {
@@ -182,6 +183,35 @@ const Projects = () => {
         </div>
         <div className='imagee'>
           <img src={bookmark} alt='Bookmark landing page' />
+        </div>
+      </section>
+      <section
+        className='sec-one mt-5'
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-easing='ease-in-sine'
+        data-aos-duration='600'
+      >
+        <div className='image-one'>
+          <img src={joblist} alt='Job listings with filtering' />
+        </div>
+        <div className='mt-5'>
+          <h4 className='project-name'>Job listings with filtering</h4>
+          <p className='mt-4 div-p'>
+            This project filters job listings based on the categories selected.
+            This project was created using React.
+          </p>
+          <div className='mt-4 buttn butn p-3'>
+            <a
+              href='https://joblistings-frontend-mentor-challenge.netlify.app/'
+              className='text-capitalize linkk'
+            >
+              see this project
+            </a>
+          </div>
+        </div>
+        <div className='imagee'>
+          <img src={joblist} alt='Job listings with filtering' />
         </div>
       </section>
     </div>
