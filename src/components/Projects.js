@@ -7,6 +7,7 @@ import rockps from '../assets/RockPaperScissors.jpg'
 import advicegapp from '../assets/AdviceGApp.jpg'
 import bookmark from '../assets/Bookmark.jpg'
 import joblist from '../assets/joblist.jpg'
+import passwordgenapp from '../assets/passwordgenapp.png'
 
 const Projects = () => {
   useEffect(() => {
@@ -212,6 +213,38 @@ const Projects = () => {
         </div>
         <div className='imagee'>
           <img src={joblist} alt='Job listings with filtering' />
+        </div>
+      </section>
+      <section
+        className='sec-one mt-5'
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-easing='ease-in-sine'
+        data-aos-duration='600'
+      >
+        <div className='image-one'>
+          <img src={passwordgenapp} alt='Password Generator App' />
+        </div>
+        <div className='mt-5'>
+          <h4 className='project-name'>Password Generator App</h4>
+          <p className='mt-4 div-p'>
+            This projects generates a password based on the selected inclusion
+            options, Copies the generated password to the computer's clipboard,
+            sees a strength rating for their generated password, and views the
+            optimal layout for the interface depending on their device's screen
+            size. This project was created using React and tailwindCSS.
+          </p>
+          <div className='mt-4 buttn butn p-3'>
+            <a
+              href='https://passwordgeneratorwebapp.netlify.app/'
+              className='text-capitalize linkk'
+            >
+              see this project
+            </a>
+          </div>
+        </div>
+        <div className='imagee'>
+          <img src={passwordgenapp} alt='Password Generator App' />
         </div>
       </section>
     </div>
