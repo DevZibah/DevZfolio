@@ -8,6 +8,7 @@ import advicegapp from '../assets/AdviceGApp.jpg'
 import bookmark from '../assets/Bookmark.jpg'
 import joblist from '../assets/joblist.jpg'
 import passwordgenapp from '../assets/passwordgenapp.png'
+import bscroommate from '../assets/bscroommate.png'
 
 const Projects = () => {
   useEffect(() => {
@@ -123,6 +124,34 @@ const Projects = () => {
         </div>
         <div className='imagee'>
           <img src={rockps} alt='Rock Paper Scissors' />
+        </div>
+      </section>
+      <section
+        className='sec-one mt-5'
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-easing='ease-in-sine'
+        data-aos-duration='600'
+      >
+        <div className='image-one'>
+          <img src={bscroommate} alt='a roommate recommendation system' />
+        </div>
+        <div className='mt-5'>
+          <h4 className='project-name text-capitalize'>a roommate recommendation system</h4>
+          <p className='mt-4 div-p'>
+            Users can sign up for this project, search for roommates, see recommended roommates, and view all users who have registered on this application. This app suggests roommates to users based on the information they entered when signing up for the app. ReactJs and Django were used to create this project.
+          </p>
+          <div className='mt-4 buttn butn p-3'>
+            <a
+              href='https://bscroommate.netlify.app/'
+              className='text-capitalize linkk'
+            >
+              see this project
+            </a>
+          </div>
+        </div>
+        <div className='imagee'>
+          <img src={bscroommate} alt='a roommate recommendation system' />
         </div>
       </section>
       <section
