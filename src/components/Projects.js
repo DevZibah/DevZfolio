@@ -5,6 +5,7 @@ import rest from '../assets/restcountries.jpg'
 import ecommerce from '../assets/Ecommerce.jpg'
 import aidryse from '../assets/aidryse.png'
 import rockps from '../assets/RockPaperScissors.jpg'
+import TicTacToe from '../assets/TicTacToe.png'
 import advicegapp from '../assets/AdviceGApp.jpg'
 import bookmark from '../assets/Bookmark.jpg'
 import joblist from '../assets/joblist.jpg'
@@ -173,7 +174,7 @@ const Projects = () => {
         data-aos-duration='600'
       >
         <div className='image-one'>
-          <img src={rockps} alt='Rock Paper Scissors' />
+          <img src={TicTacToe} alt='TicTacToe' />
         </div>
         <div className='mt-5'>
           <h4 className='project-name'>Tic Tac Toe game</h4>
@@ -186,7 +187,7 @@ const Projects = () => {
           </p>
           <div className='mt-4 buttn butn p-3'>
             <a
-              href='https://paperrockscissors.netlify.app/'
+              href='https://tic-tac-toegamme.netlify.app/'
               className='text-capitalize linkk'
             >
               see this project
@@ -194,7 +195,7 @@ const Projects = () => {
           </div>
         </div>
         <div className='imagee'>
-          <img src={rockps} alt='Rock Paper Scissors' />
+          <img src={TicTacToe} alt='TicTacToe' />
         </div>
       </section>
 
