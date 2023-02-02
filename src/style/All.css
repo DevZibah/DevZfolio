@@ -15,11 +15,11 @@ body {
   margin: 0 auto;
   font-family: 'Raleway', sans-serif;
 }
-.loaderr {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 13rem;
+.load {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .first-div {
   /* border: 1px solid blueviolet; */
@@ -63,7 +63,7 @@ body {
 .linnk1 {
   color: black;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 .linnk1:hover {
   color: black;
@@ -145,7 +145,7 @@ body {
     width: 30%;
   }
   .linnk1 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
   }
   .imagee {
     display: none;
@@ -226,7 +226,7 @@ body {
     background-color: #fcbf49;
     color: black;
   }
-  .linkk:hover{
+  .linkk:hover {
     color: black;
     font-size: larger;
   }

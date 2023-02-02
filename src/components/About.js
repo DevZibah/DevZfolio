@@ -4,12 +4,15 @@ import 'aos/dist/aos.css'
 import { IoLogoHtml5 } from 'react-icons/io'
 import { IoLogoCss3 } from 'react-icons/io'
 import { DiBootstrap } from 'react-icons/di'
-import { SiJavascript } from 'react-icons/si'
+import {
+  SiJavascript,
+  SiTypescript,
+  SiMaterialui,
+  SiTailwindcss,
+  SiDjango,
+} from 'react-icons/si'
 import { RiReactjsLine } from 'react-icons/ri'
-import { SiMaterialui } from 'react-icons/si'
-import { SiTailwindcss } from 'react-icons/si'
 import { FaPython } from 'react-icons/fa'
-import { SiDjango } from 'react-icons/si'
 import twentythird from '../assets/twentythird.jpg'
 const About = () => {
   useEffect(() => {
@@ -96,6 +99,14 @@ const About = () => {
             data-aos-duration='300'
           >
             <SiJavascript />
+          </div>
+          <div
+            data-aos='fade-up'
+            data-aos-offset='200'
+            data-aos-easing='ease-in-sine'
+            data-aos-duration='300'
+          >
+            <SiTypescript />
           </div>
           <div
             data-aos='fade-up'

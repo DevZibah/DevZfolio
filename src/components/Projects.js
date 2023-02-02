@@ -79,7 +79,8 @@ const Projects = () => {
             Understanding that GBV has become a prevalent social ill, we decided
             to create a platform that educates and shares stories of
             Gender-based violence in audio format.The technologies used in this
-            project are: ReactJs, Bootstrap, Figma, EmailJs, Cloudinary, and MailTo.
+            project are: ReactJs, Bootstrap, Figma, EmailJs, Cloudinary, and
+            MailTo.
           </p>
           <div className='mt-4 buttn butn p-3'>
             <a
@@ -163,6 +164,40 @@ const Projects = () => {
           <img src={rockps} alt='Rock Paper Scissors' />
         </div>
       </section>
+
+      <section
+        className='sec-one mt-5'
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-easing='ease-in-sine'
+        data-aos-duration='600'
+      >
+        <div className='image-one'>
+          <img src={rockps} alt='Rock Paper Scissors' />
+        </div>
+        <div className='mt-5'>
+          <h4 className='project-name'>Tic Tac Toe game</h4>
+          <p className='mt-4 div-p'>
+            Remember the tic tac toe game, also known as X and O, that we used
+            to play on paper as kids? This is a recreation of the game. This
+            makes it more enjoyable to play. It allows players to select either
+            X or O and play against each other or the computer. TypeScript was
+            used to create it.
+          </p>
+          <div className='mt-4 buttn butn p-3'>
+            <a
+              href='https://paperrockscissors.netlify.app/'
+              className='text-capitalize linkk'
+            >
+              see this project
+            </a>
+          </div>
+        </div>
+        <div className='imagee'>
+          <img src={rockps} alt='Rock Paper Scissors' />
+        </div>
+      </section>
+
       <section
         className='sec-one mt-5'
         data-aos='fade-up'
@@ -195,6 +230,68 @@ const Projects = () => {
         </div>
         <div className='imagee'>
           <img src={bscroommate} alt='a roommate recommendation system' />
+        </div>
+      </section>
+
+      <section
+        className='sec-one mt-5'
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-easing='ease-in-sine'
+        data-aos-duration='600'
+      >
+        <div className='image-one'>
+          <img src={joblist} alt='Job listings with filtering' />
+        </div>
+        <div className='mt-5'>
+          <h4 className='project-name'>Job listings with filtering</h4>
+          <p className='mt-4 div-p'>
+            This project filters job listings based on the categories selected.
+            This project was created using React.
+          </p>
+          <div className='mt-4 buttn butn p-3'>
+            <a
+              href='https://joblistings-frontend-mentor-challenge.netlify.app/'
+              className='text-capitalize linkk'
+            >
+              see this project
+            </a>
+          </div>
+        </div>
+        <div className='imagee'>
+          <img src={joblist} alt='Job listings with filtering' />
+        </div>
+      </section>
+      <section
+        className='sec-one mt-5'
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-easing='ease-in-sine'
+        data-aos-duration='600'
+      >
+        <div className='image-one'>
+          <img src={passwordgenapp} alt='Password Generator App' />
+        </div>
+        <div className='mt-5'>
+          <h4 className='project-name'>Password Generator App</h4>
+          <p className='mt-4 div-p'>
+            This projects generates a password based on the selected inclusion
+            options, Copies the generated password to the computer's clipboard,
+            sees a strength rating for their generated password, and views the
+            optimal layout for the interface depending on their device's screen
+            size. This project was created using React and tailwindCSS.
+          </p>
+          <div className='mt-4 buttn butn p-3'>
+            <a
+              href='https://passwordgeneratorwebapp.netlify.app/'
+              className='text-capitalize linkk'
+            >
+              see this project
+            </a>
+          </div>
+        </div>
+        <div className='imagee'>
+          <img src={passwordgenapp} alt='Password Generator App' />
         </div>
       </section>
       <section
@@ -256,67 +353,6 @@ const Projects = () => {
         </div>
         <div className='imagee'>
           <img src={bookmark} alt='Bookmark landing page' />
-        </div>
-      </section>
-      <section
-        className='sec-one mt-5'
-        data-aos='fade-up'
-        data-aos-offset='200'
-        data-aos-easing='ease-in-sine'
-        data-aos-duration='600'
-      >
-        <div className='image-one'>
-          <img src={joblist} alt='Job listings with filtering' />
-        </div>
-        <div className='mt-5'>
-          <h4 className='project-name'>Job listings with filtering</h4>
-          <p className='mt-4 div-p'>
-            This project filters job listings based on the categories selected.
-            This project was created using React.
-          </p>
-          <div className='mt-4 buttn butn p-3'>
-            <a
-              href='https://joblistings-frontend-mentor-challenge.netlify.app/'
-              className='text-capitalize linkk'
-            >
-              see this project
-            </a>
-          </div>
-        </div>
-        <div className='imagee'>
-          <img src={joblist} alt='Job listings with filtering' />
-        </div>
-      </section>
-      <section
-        className='sec-one mt-5'
-        data-aos='fade-up'
-        data-aos-offset='200'
-        data-aos-easing='ease-in-sine'
-        data-aos-duration='600'
-      >
-        <div className='image-one'>
-          <img src={passwordgenapp} alt='Password Generator App' />
-        </div>
-        <div className='mt-5'>
-          <h4 className='project-name'>Password Generator App</h4>
-          <p className='mt-4 div-p'>
-            This projects generates a password based on the selected inclusion
-            options, Copies the generated password to the computer's clipboard,
-            sees a strength rating for their generated password, and views the
-            optimal layout for the interface depending on their device's screen
-            size. This project was created using React and tailwindCSS.
-          </p>
-          <div className='mt-4 buttn butn p-3'>
-            <a
-              href='https://passwordgeneratorwebapp.netlify.app/'
-              className='text-capitalize linkk'
-            >
-              see this project
-            </a>
-          </div>
-        </div>
-        <div className='imagee'>
-          <img src={passwordgenapp} alt='Password Generator App' />
         </div>
       </section>
     </div>
