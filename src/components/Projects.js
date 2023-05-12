@@ -6,8 +6,8 @@ import ecommerce from '../assets/Ecommerce.jpg'
 import aidryse from '../assets/aidryse.png'
 import rockps from '../assets/RockPaperScissors.jpg'
 import TicTacToe from '../assets/TicTacToe.png'
-import advicegapp from '../assets/AdviceGApp.jpg'
-import bookmark from '../assets/Bookmark.jpg'
+import recycler from '../assets/recycler.png'
+import tita from '../assets/tita.png'
 import joblist from '../assets/joblist.jpg'
 import passwordgenapp from '../assets/passwordgenapp.png'
 import bscroommate from '../assets/bscroommate.png'
@@ -17,17 +17,17 @@ const Projects = () => {
     Aos.init()
   }, [])
   return (
-    <div className='p-4 Projects'>
+    <div className='p-4 Projects prj-one'>
       <div
         data-aos='fade-up'
         data-aos-offset='200'
         data-aos-easing='ease-in-sine'
         data-aos-duration='600'
       >
-        <h3 className='text-capitalize prj'>projects</h3>
+        <h3 className='text-capitalize prj text-center'>projects</h3>
       </div>
       <section
-        className='sec-one mt-5 mt-md-4'
+        className='sec-one mt-5 mt-md-4 mt-lg-5'
         data-aos='fade-up'
         data-aos-offset='200'
         data-aos-easing='ease-in-sine'
@@ -37,7 +37,7 @@ const Projects = () => {
           <img src={ecommerce} alt='Ecommerce single page' />
         </div>
         <div className='mt-5'>
-          <h4 className='project-name'>E-commerce product page</h4>
+          <h4 className='project-name text-center'>E-commerce product page</h4>
           <p className='mt-4 div-p'>
             This project enables users to view the optimal layout for the site
             depending on their device's screen size, see hover states for all
@@ -61,17 +61,17 @@ const Projects = () => {
         </div>
       </section>
       <section
-        className='sec-one mt-5 mt-md-4'
+        className='sec-one mt-5 mt-md-4 mt-lg-5'
         data-aos='fade-up'
         data-aos-offset='200'
         data-aos-easing='ease-in-sine'
         data-aos-duration='600'
       >
-        <div className='image-one'>
+        <div className='image-one mt-5'>
           <img src={aidryse} alt='aidryse' />
         </div>
         <div className='mt-5'>
-          <h4 className='project-name'>Aidryse</h4>
+          <h4 className='project-name text-center'>Aidryse</h4>
           <p className='mt-4 div-p'>
             Aidryse is a web-based open source platform for accessing audio
             information on Gender Based Violence. In collaboration with South
@@ -93,11 +93,81 @@ const Projects = () => {
           </div>
         </div>
         <div className='imagee'>
-          <img src={aidryse} alt='aidryse' />
+          <img className='imagee-onee' src={aidryse} alt='aidryse' />
         </div>
       </section>
       <section
-        className='sec-one mt-4'
+        className='sec-one mt-5 mt-md-4 mt-lg-5'
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-easing='ease-in-sine'
+        data-aos-duration='600'
+      >
+        <div className='image-one'>
+          <img src={recycler} alt='recycler' />
+        </div>
+        <div className='mt-5'>
+          <h4 className='project-name text-center'>Recycler</h4>
+          <p className='mt-4 div-p'>
+            Recycler is a web application built to help achieve Sustainable
+            Development Goals 12 & 13, enabling people to recycle their
+            recycleable wastes. We act as a middleman between companies that
+            make use of or recycle these wastes and individuals and businesses
+            with wastes to recycle. Using our website, users can can sign up and
+            locate recycling partners closest to their location through Google
+            Maps. Our agents can then pick up these recyclable waste at
+            different collection centres and deliver to the factory.
+          </p>
+          <div className='mt-4 buttn butn p-3'>
+            <a href='http://recycler.dev/' className='text-capitalize linkk'>
+              see this project
+            </a>
+          </div>
+        </div>
+        <div className='imagee'>
+          <img className='imagee-onee' src={recycler} alt='recycler' />
+        </div>
+      </section>
+      <section
+        className='sec-one mt-5 mt-md-4 mt-lg-5'
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-easing='ease-in-sine'
+        data-aos-duration='600'
+      >
+        <div className='image-one'>
+          <img src={tita} alt='tita' />
+        </div>
+        <div className='mt-5'>
+          <h4 className='project-name text-center'>TITA</h4>
+          <p className='mt-4 div-p'>
+            TITA is a decentralised micro-lending platform that was developed to
+            help startups, investors, and individuals interested in getting a
+            soft loan using Blockchain Technology. TITA platform will enable
+            entrepreneurs and startups in building their business success with
+            just a minute of interest. TITA Micro-lending plsatform is a
+            secured, transparent, transparent, inclusive, tokenized platform
+            built on highly effective and industry standards Blockchain
+            Technology. The platform uses this Blockchain Technology to connect
+            borrowers and lenders together with the purpose to ease fears of the
+            lender as well as the borrowers.
+          </p>
+          <div className='mt-4 buttn butn p-3'>
+            <a
+              href='https://github.com/DevZibah/Tita.git'
+              className='text-capitalize linkk'
+            >
+              see this project
+            </a>
+          </div>
+        </div>
+        <div className='imagee'>
+          <img className='imagee-onee' src={tita} alt='tita' />
+        </div>
+      </section>
+
+      <section
+        className='sec-one mt-4 mt-lg-5'
         data-aos='fade-up'
         data-aos-offset='200'
         data-aos-easing='ease-in-sine'
@@ -107,7 +177,7 @@ const Projects = () => {
           <img src={rest} alt='Rest Countries API' />
         </div>
         <div className='mt-5'>
-          <h4 className='project-name'>
+          <h4 className='project-name text-center'>
             REST Countries API with color theme switcher
           </h4>
           <p className='mt-4 div-p'>
@@ -134,7 +204,7 @@ const Projects = () => {
       </section>
 
       <section
-        className='sec-one mt-5'
+        className='sec-one mt-5 mt-lg-5'
         data-aos='fade-up'
         data-aos-offset='200'
         data-aos-easing='ease-in-sine'
@@ -144,7 +214,9 @@ const Projects = () => {
           <img src={rockps} alt='Rock Paper Scissors' />
         </div>
         <div className='mt-5'>
-          <h4 className='project-name'>Rock, Paper, Scissors game</h4>
+          <h4 className='project-name text-center'>
+            Rock, Paper, Scissors game
+          </h4>
           <p className='mt-4 div-p'>
             Remember the Rock Paper Scissors game we played with our hands as
             children? This is an implementation of that game. This makes it more
@@ -167,7 +239,7 @@ const Projects = () => {
       </section>
 
       <section
-        className='sec-one mt-5'
+        className='sec-one mt-5 mt-lg-5'
         data-aos='fade-up'
         data-aos-offset='200'
         data-aos-easing='ease-in-sine'
@@ -177,7 +249,7 @@ const Projects = () => {
           <img src={TicTacToe} alt='TicTacToe' />
         </div>
         <div className='mt-5'>
-          <h4 className='project-name'>Tic Tac Toe game</h4>
+          <h4 className='project-name text-center'>Tic Tac Toe game</h4>
           <p className='mt-4 div-p'>
             Remember the tic tac toe game, also known as X and O, that we used
             to play on paper as kids? This is a recreation of the game. This
@@ -195,12 +267,12 @@ const Projects = () => {
           </div>
         </div>
         <div className='imagee'>
-          <img src={TicTacToe} alt='TicTacToe' />
+          <img className='imagee-onee' src={TicTacToe} alt='TicTacToe' />
         </div>
       </section>
 
       <section
-        className='sec-one mt-5'
+        className='sec-one mt-5 mt-lg-5'
         data-aos='fade-up'
         data-aos-offset='200'
         data-aos-easing='ease-in-sine'
@@ -210,7 +282,7 @@ const Projects = () => {
           <img src={bscroommate} alt='a roommate recommendation system' />
         </div>
         <div className='mt-5'>
-          <h4 className='project-name text-capitalize'>
+          <h4 className='project-name text-capitalize text-center'>
             a roommate recommendation system
           </h4>
           <p className='mt-4 div-p'>
@@ -230,12 +302,16 @@ const Projects = () => {
           </div>
         </div>
         <div className='imagee'>
-          <img src={bscroommate} alt='a roommate recommendation system' />
+          <img
+            className='imagee-onee'
+            src={bscroommate}
+            alt='a roommate recommendation system'
+          />
         </div>
       </section>
 
       <section
-        className='sec-one mt-5'
+        className='sec-one mt-5 mt-lg-5'
         data-aos='fade-up'
         data-aos-offset='200'
         data-aos-easing='ease-in-sine'
@@ -245,7 +321,9 @@ const Projects = () => {
           <img src={joblist} alt='Job listings with filtering' />
         </div>
         <div className='mt-5'>
-          <h4 className='project-name'>Job listings with filtering</h4>
+          <h4 className='project-name text-center'>
+            Job listings with filtering
+          </h4>
           <p className='mt-4 div-p'>
             This project filters job listings based on the categories selected.
             This project was created using React.
@@ -264,7 +342,7 @@ const Projects = () => {
         </div>
       </section>
       <section
-        className='sec-one mt-5'
+        className='sec-one mt-5 mt-lg-5'
         data-aos='fade-up'
         data-aos-offset='200'
         data-aos-easing='ease-in-sine'
@@ -274,7 +352,7 @@ const Projects = () => {
           <img src={passwordgenapp} alt='Password Generator App' />
         </div>
         <div className='mt-5'>
-          <h4 className='project-name'>Password Generator App</h4>
+          <h4 className='project-name text-center'>Password Generator App</h4>
           <p className='mt-4 div-p'>
             This projects generates a password based on the selected inclusion
             options, Copies the generated password to the computer's clipboard,
@@ -292,68 +370,11 @@ const Projects = () => {
           </div>
         </div>
         <div className='imagee'>
-          <img src={passwordgenapp} alt='Password Generator App' />
-        </div>
-      </section>
-      <section
-        className='sec-one mt-5'
-        data-aos='fade-up'
-        data-aos-offset='200'
-        data-aos-easing='ease-in-sine'
-        data-aos-duration='600'
-      >
-        <div className='image-one'>
-          <img src={advicegapp} alt='Advice generator app' />
-        </div>
-        <div className='mt-5'>
-          <h4 className='project-name'>Advice generator app</h4>
-          <p className='mt-4 div-p'>
-            This project integrates with the Advice Slip API to pull advice
-            data. It enables users to see hover states for all interactive
-            elements on the page and generate a new piece of advice by clicking
-            the dice icon. It was built with ReactJs.
-          </p>
-          <div className='mt-4 buttn butn p-3'>
-            <a
-              href='https://anadvice-generator-app.netlify.app/'
-              className='text-capitalize linkk'
-            >
-              see this project
-            </a>
-          </div>
-        </div>
-        <div className='imagee'>
-          <img src={advicegapp} alt='Advice generator app' />
-        </div>
-      </section>
-      <section
-        className='sec-one mt-5'
-        data-aos='fade-up'
-        data-aos-offset='200'
-        data-aos-easing='ease-in-sine'
-        data-aos-duration='600'
-      >
-        <div className='image-one'>
-          <img src={bookmark} alt='Bookmark landing page' />
-        </div>
-        <div className='mt-5'>
-          <h4 className='project-name'>Bookmark landing page</h4>
-          <p className='mt-4 div-p'>
-            This project is a landing page that enables users to view the
-            optimal layout for the site depending on their device's screen size.
-            It was built with HTML, CSS and Bootstrap.
-          </p>
-          <div className='mt-4 buttn butn p-3'>
-            <a
-              href='https://bookmark-frontendmentor-challenge-solution.netlify.app/'
-              className='text-capitalize linkk'
-            >
-              see this project
-            </a>
-          </div>
-        </div>
-        <div className='imagee'>
-          <img src={bookmark} alt='Bookmark landing page' />
+          <img
+            className='imagee-onee'
+            src={passwordgenapp}
+            alt='Password Generator App'
+          />
         </div>
       </section>
     </div>

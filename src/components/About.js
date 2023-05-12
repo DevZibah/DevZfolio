@@ -26,9 +26,9 @@ const About = () => {
         data-aos-easing='ease-in-sine'
         data-aos-duration='600'
       >
-        <h3 className='text-capitalize prj'>about me</h3>
+        <h3 className='text-capitalize prj text-center'>about me</h3>
       </div>
-      <section className='mt-4 sec-two'>
+      <section className='mt-5 sec-two'>
         <div
           data-aos='fade-up'
           data-aos-offset='200'
@@ -36,7 +36,7 @@ const About = () => {
           data-aos-duration='600'
           className='aboutimg'
         >
-          <img src={twentythird} alt='' />
+          <img src={twentythird} className='imgabout-one' alt='' />
         </div>
         <div
           data-aos='fade-up'
@@ -44,7 +44,7 @@ const About = () => {
           data-aos-easing='ease-in-sine'
           data-aos-duration='600'
         >
-          <p className='mt-4 div-p'>
+          <p className='mt-5 div-p about-pp'>
             Chukwuma Chisom is my name. I'm a huge fan of all things
             technological. I'm astounded by technological solutions. I'm an
             enthusiastic front-end web developer. I create pixel-perfect
@@ -60,14 +60,14 @@ const About = () => {
           data-aos-duration='600'
           className='aboutimg-one'
         >
-          <img src={twentythird} alt='' />
+          <img src={twentythird} className='imgabout-one' alt='' />
         </div>
       </section>
-      <section>
-        <div className='text-capitalize prj mt-md-5'>
-          <h3>tech stack</h3>
+      <section className='mt-5'>
+        <div className='text-capitalize prj mt-md-5 text-center'>
+          <h3 className='prj prj-one'>tech stack</h3>
         </div>
-        <section className='griid mt-3 justify-content-between'>
+        <section className='griid mt-4 justify-content-between'>
           <div
             data-aos='fade-up'
             data-aos-offset='200'
